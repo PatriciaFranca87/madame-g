@@ -1,13 +1,13 @@
 import React from "react";
 
 const itens = [
-    { nome: "Sapatilha Moleca", preco: 150.0, imagem: "./public/imagens/molecaSap1.png"},
-    { nome: "Sapatilha Moleca", preco: 150.0, imagem: "./public/imagens/molecaSap2.png"},
-    { nome: "Sapatilha Moleca", preco: 150.0, imagem: "./public/imagens/molecaSap3.png"},
-    { nome: "Sapatilha Moleca", preco: 150.0, imagem: "./public/imagens/molecaSap4.png"},
-    { nome: "Sandalha Moleca", preco: 150.0, imagem: "./public/imagens/papeteMoleca1.png"},
-    { nome: "Sandalha Moleca", preco: 150.0, imagem: "./public/imagens/papeteMoleca2.png"},
-    { nome: "Vizzano", preco: 140.0, imagem: "./public/imagens/vizzano1.png"},
+    { nome: "Sapatilha Moleca", preco: 150.0, imagem: "/imagens/molecaSap1.png"},
+    { nome: "Sapatilha Moleca", preco: 150.0, imagem: "/imagens/molecaSap2.png"},
+    { nome: "Sapatilha Moleca", preco: 150.0, imagem: "/imagens/molecaSap3.png"},
+    { nome: "Sapatilha Moleca", preco: 150.0, imagem: "/imagens/molecaSap4.png"},
+    { nome: "Sandalha Moleca", preco: 150.0, imagem: "/imagens/papeteMoleca1.png"},
+    { nome: "Sandalha Moleca", preco: 150.0, imagem: "/imagens/papeteMoleca2.png"},
+    { nome: "Vizzano", preco: 140.0, imagem: "/imagens/vizzano1.png"},
     { nome: "Vizzano", preco: 140.0, imagem: "./public/imagens/vizzano2.png"},
     { nome: "Sapatilha Ana Castela", preco: 120.0, imagem: "./public/imagens/anaCastela1.png"},
     { nome: "Sapatilha Ana Castela", preco: 120.0, imagem:"./public/imagens/anaCastela2.png" },
