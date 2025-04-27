@@ -1,0 +1,224 @@
+/* Estilos gerais */
+body {
+    background-color: #B86F4E;
+    color: #3B2B26;  
+    margin: 0;
+    padding: 0;
+    /*min-height: 200vh;*/
+    display: flex;
+    flex-direction: column;
+    /*overflow: hidden; Evitar rolagem na página */
+}
+
+/* Container principal */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px; /* Diminuir o espaçamento interno */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Ícones das redes sociais */
+.social-icons {
+   
+    display: flex;
+    justify-content: center;
+    background-color: #4A332A;
+    padding: 15px 0;
+    margin: 0 auto;
+   /* margin-bottom: 10px; /* Reduzir o espaço entre os ícones e o próximo conteúdo */
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 20px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Efeito hover nos ícones das redes sociais */
+.social-icons a:hover {
+    color: orange; /* Muda a cor para laranja quando o mouse passa sobre os ícones */
+}
+
+/* Titulo do Catalogo */
+.titulo-Catalogo{
+    
+    position: relative;
+    display:flex;
+    justify-content: center;/*justifica o texto*/
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.4); /* Transparência */
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    /*margin-bottom: 10px; /* Diminuir espaço entre o cardápio e o resumo */
+}
+
+.fotoSuperior{
+    position: absolute;
+    left: 0;
+    width:110px; /* ajusta o tamanho conforme necessário */
+    margin-left: 80px; /* opcional: espaço da borda da tela */
+    border-radius: 10px;
+}
+
+.entrega{
+    float: left;
+    width: 80px;
+}
+
+.cartao{
+    float: right;
+    width: 80px;
+}
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    padding: 5px 0;
+  }
+  
+  .carousel-track {
+    display: flex;
+    gap: 30px; /* pode ajustar esse espaço entre as imagens */
+    animation: slide 20s linear infinite;
+    width: max-content;
+  }
+  
+  .carousel-track img {
+    height: 60px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+      
+
+/* catalogo */
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    gap: 20px;
+    /*display: flex; flex-direction: column;*/
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.4); /* Transparência */
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-bottom: 10px; /* Diminuir espaço entre o cardápio e o resumo */
+}
+
+/* Item de catalogo */
+.menu-item {
+    width: 70%;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4); /* Transparência */
+    padding: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-bottom: 5px; /* Diminuir espaço entre o cardápio e o resumo */
+    border-radius: 8px;
+}
+
+.info{
+    display: block; 
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.4); /* Transparência */
+    padding: 15px 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+      
+.item-info {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.item-info input {
+    width: 30px;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+
+.menu-item img {
+    width: 180px;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+/* Botão */
+button {
+    background-color: #3B2B26;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Diminuir espaço entre o botão e os itens */
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Resumo do pedido */
+.order-summary {
+    background-color: rgba(234, 241, 230, 0.8); /* Transparência */
+    padding: 20px;
+    margin-top: 10px;
+    border: 2px solid #c1d7c4;
+    border-radius: 8px;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 10px; /* Diminuir o espaço entre o resumo e o footer */
+    margin-left: auto;
+    margin-right: auto; /* Garantir que fique centralizado */
+}
+
+/* Alinha o resumo do pedido com o tamanho da div do cardápio */
+#resumoPedido {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px; /* Ajuste o espaçamento entre o conteúdo e o footer */
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
