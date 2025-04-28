@@ -49,6 +49,7 @@ function App() {
   return (
     <>
     
+    <div className="conteudo">
       {/* Ícones das redes sociais */}
       <div className="social-icons">
             <a href="https://wa.me/5521991495081" target="_blank" class="whatsapp-link"><i class="fab fa-whatsapp"></i></a>
@@ -58,7 +59,7 @@ function App() {
 
 
      <div class="titulo-Catalogo"> 
-        <img src="./public/imagens/logo.png" alt="Foto da pessoa" class="fotoSuperior"></img>
+        <img src="imagens/logo.png" alt="Foto da pessoa" class="fotoSuperior"></img>
         <h1>MADAME G</h1>
         <p>Bolsas - Calçados - Acessórios</p>        
       </div>
@@ -67,8 +68,8 @@ function App() {
 
         
        <div className='info'>
-         <img src='./public/imagens/entrega.png' class="entrega"/>
-         <img src='./public/imagens/cartao.png' class="cartao"/>
+         <img src='imagens/entrega.png' class="entrega"/>
+         <img src='imagens/cartao.png' class="cartao"/>
          <h3>Receba no conforto de casa</h3>
          <h3>Aceitamos cartões</h3>              
        </div>
@@ -117,8 +118,9 @@ function App() {
       <p>Desenvolvido por<a href="https://github.com/PatriciaFranca87" target="_blank">  Patrícia França</a> no Curso de Programador Front-End no Senai Maracanã. Todos os direitos reservados - 2025.</p>
 
       </footer>
-    </>
-  );
+      </div>
+      </>
+     );
 }
 
 export default App;

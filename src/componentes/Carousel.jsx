@@ -1,11 +1,13 @@
 import './Carousel.jsx'; // Seu CSS
 
 const logos = [
-  "./public/imagens/logo1.png",
-  "./public/imagens/logo3.png",
-  "./public/imagens/logo5.png",
-  "./public/imagens/logo4.png",
-  "./public/imagens/logo7.png"
+  "imagens/logo1.png",
+  "imagens/logo3.png",
+  "imagens/logo5.png",
+  "imagens/logo4.png",
+  "imagens/logo7.png",
+  "imagens/logokenner.png",
+  "imagens/farmlogo.png"
   // Adicione quantas quiser
 ];
 
